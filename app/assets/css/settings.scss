@@ -1,0 +1,11 @@
+$theme-color: #28243d;
+@forward 'vuetify/settings' with (
+  // variables go here
+    $layers: true,
+    $button-banner-actions-padding: 16px,
+    $button-height: 38px,
+    $list-background: $theme-color,
+    $list-color: #fff,
+);
+
+$my-button-height: 20px;

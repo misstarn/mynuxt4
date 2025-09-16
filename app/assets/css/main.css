@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://rsms.me/");
+@import url("https://rsms.me/inter/inter.css");
+
+@import "tailwindcss";
+/* 修改字体 */
+@theme {
+    --font-sans: "InterVariable", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+}
+
+.folder-item {
+    @apply flex select-none items-center gap-5 p-3 shadow-[0px_1px_10px_0px_rgba(0,0,0,0.25)] rounded-lg;
+}
+
+.file-item {
+     @apply shadow-[0px_1px_10px_0px_rgba(0,0,0,0.25)] rounded-lg
+}
